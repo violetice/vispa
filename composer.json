@@ -1,0 +1,20 @@
+{
+    "name": "violetice/vispa",
+    "type": "project",
+    "description": "Vispa是由Violet_Ice紫冰开发的一种单页式前端解决方案",
+    "license": "CC-BY-SA-3.0",
+    "keywords": [
+        "vispa",
+        "SPAweb",
+        "violetice"
+    ],
+    "authors": [
+        {
+            "name": "Violet_Ice紫冰",
+            "email": "violetice@aliyun.com"
+        }
+    ],
+    "require": {
+        "php":">=7.0.0"
+    }
+}

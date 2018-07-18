@@ -1,0 +1,73 @@
+/**
+* Vispa 模板样式
+* 
+* @author Violet_Ice紫冰 <violetice@aliyun.com>
+* @start 2018-7-17 10:34:19
+* @end 2018-7-17 14:02:46
+* @see https://www.vlice.cn
+*/
+
+body{
+    background-color: #fafafa;
+}
+// 头部导航栏
+nav{
+    $navh:3.75rem;
+    $navbc:#3d6aff;
+
+    position: fixed;
+    background-color:$navbc;
+    width:100%;
+    height:$navh;
+    z-index:1;
+
+    .lay-nav-logo{
+        position: absolute;
+        line-height: $navh;
+        
+        a{
+            font-size: 1.25rem;
+        }
+    }
+    .vispa-nav{
+        position: absolute;
+        height:$navh;
+        right:0;
+        padding:0 0.625rem;
+        background-color: $navbc;
+
+        .layui-this:after,.layui-nav-bar{
+            background-color: #eeeeee;
+        }
+        .layui-nav-item > a{
+            color:rgba(255, 255, 255, 0.8);
+        }
+        .vispa-icon{
+            font-size: 1.125rem;
+        }
+    }
+    .vispa-nav .layui-this > a,.vispa-nav .layui-nav-item .vispa-nav-phone,.lay-nav-logo a{
+        color:#fff;
+    }
+}
+
+// 小屏幕导航样式
+@media screen and (max-width: 768px){
+    nav .vispa-nav .layui-nav-child{
+        left:auto;
+        right:0;
+    }
+}
+
+// 中间体
+main{
+    position: relative;
+    top:3.75rem;
+    padding-top:1.25rem;
+}
+
+// Error弹窗
+.vispa-layer-error .layui-layer-title{
+    background-color: #3d6aff;
+    color: #fff;
+}

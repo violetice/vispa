@@ -1,0 +1,31 @@
+{
+  "name": "@violetice/vispa",
+  "version": "1.0.0",
+  "description": "Vispa是由Violet_Ice紫冰开发的一种单页式前端解决方案",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-header-comment": "^0.4.0",
+    "gulp-json-minify": "^1.2.2",
+    "gulp-uglify": "^3.0.0",
+    "gulp-uglifycss": "~1.0.9",
+    "vispa-htmlmin": "^1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/vlice_web/website.git"
+  },
+  "keywords": [
+    "vispa",
+    "violetice",
+    "vlice",
+    "Violet_Ice紫冰"
+  ],
+  "bugs": {
+    "email": "violetice@aliyun.com",
+    "url": "https://gitee.com/vlice_web/website/issues/new"
+  },
+  "homepage": "https://vispa.vlice.cn",
+  "author": "Violet_Ice紫冰 <violetice@aliyun.com> {https://www.vlice.cn}",
+  "license": "CC-BY-SA-3.0"
+}
